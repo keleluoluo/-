@@ -1,0 +1,86 @@
+@mainColor:#ff0011;
+
+.imageCommon{
+     display: block;
+     width: 100%;
+}
+
+.mui-bar{
+     background-color:@mainColor;
+     h1{
+          color: #fff;
+     }
+     >a>span{
+          color: #fff;
+     }
+}
+.cz_nav{
+    ul{
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+            float: left;
+            width: 33.333%;
+            a{
+                display: block;
+                width: 100%;
+                img{
+                  display: block;
+                  width: 100%;
+                }
+            }
+        }
+    }
+}
+/*活动区域.*/
+.cz_active{
+    a:nth-child(1){
+          float: left;
+          width: 67.8%;
+          img{
+              width: 50%;
+              float: left;
+              display: block;
+          }
+    }
+    a:nth-child(2){
+      float: right;
+      width: 32.2%;
+      img{
+          .imageCommon();
+      }
+    }
+    a:nth-child(3){
+      float: left;
+      width: 67.8%;
+      img{
+         width: 50%;
+         float: left;
+      }
+    }
+}
+.cz_brand{
+    >img{
+          width: 100%;
+          display: block;
+    }
+    ul{
+          list-style: none;
+          margin: 0;
+         padding: 0;
+        li{
+            width: 25%;
+            float: left;
+            a{
+                .imageCommon();
+                img{
+                  .imageCommon();
+                }
+            }
+        }
+    }
+}
+
+

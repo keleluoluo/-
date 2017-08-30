@@ -1,0 +1,68 @@
+@import "common.less";
+.mui-bar{
+  background-color: @mainColor;
+  h1{
+    color: white;
+  }
+  a{
+    span{
+      color: #fff;
+    }
+  }
+}
+.sl_nav{
+  ul{
+    li{
+      width: 33.33%;
+      float: left;
+      a{
+        .imageCommon();
+        img{
+          .imageCommon();
+        }
+      }
+    }
+  }
+}
+.sl_active{
+  a:nth-child(1){
+    float: left;
+    width: 67.1%;
+    img{
+      width: 50%;
+      display: block;
+      float: left;
+    }
+  }
+  a:nth-child(2){
+    float: right;
+    width: 32.9%;
+    img{
+      .imageCommon();
+    }
+  }
+  a:nth-child(3){
+    float: left;
+    width: 67.1%;
+    img{
+      width: 50%;
+      display: block;
+      float: left;
+    }
+  }
+}
+//Æ·ÅÆÇøÓò
+.sl_brand{
+  img{
+    .imageCommon();
+  }
+  ul{
+    li{
+      float: left;
+      width: 25%;
+      img{
+        .imageCommon();
+      }
+    }
+  }
+}

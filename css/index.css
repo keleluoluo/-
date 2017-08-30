@@ -1,0 +1,78 @@
+.imageCommon {
+  display: block;
+  width: 100%;
+}
+.mui-bar {
+  background-color: #ff0011;
+}
+.mui-bar h1 {
+  color: #fff;
+}
+.mui-bar > a > span {
+  color: #fff;
+}
+.cz_nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cz_nav ul li {
+  float: left;
+  width: 33.333%;
+}
+.cz_nav ul li a {
+  display: block;
+  width: 100%;
+}
+.cz_nav ul li a img {
+  display: block;
+  width: 100%;
+}
+/*活动区域.*/
+.cz_active a:nth-child(1) {
+  float: left;
+  width: 67.8%;
+}
+.cz_active a:nth-child(1) img {
+  width: 50%;
+  float: left;
+  display: block;
+}
+.cz_active a:nth-child(2) {
+  float: right;
+  width: 32.2%;
+}
+.cz_active a:nth-child(2) img {
+  display: block;
+  width: 100%;
+}
+.cz_active a:nth-child(3) {
+  float: left;
+  width: 67.8%;
+}
+.cz_active a:nth-child(3) img {
+  width: 50%;
+  float: left;
+}
+.cz_brand > img {
+  width: 100%;
+  display: block;
+}
+.cz_brand ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cz_brand ul li {
+  width: 25%;
+  float: left;
+}
+.cz_brand ul li a {
+  display: block;
+  width: 100%;
+}
+.cz_brand ul li a img {
+  display: block;
+  width: 100%;
+}

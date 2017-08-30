@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.imageCommon {
+  display: block;
+  width: 100%;
+}

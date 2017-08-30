@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./mui-master/dist/css/mui.css"/>
+    <script src="./mui-master/dist/js/mui.js"></script>
+</head>
+<body>
+<a href="javascript:void(0);" class="mui-btn mui-btn-success mui-btn-outlined">按钮1</a>
+<a href="javascript:void(0);" class="mui-btn mui-btn-success mui-btn-outlined">按钮2</a>
+<a href="javascript:void(0);" class="mui-btn mui-btn-success mui-btn-outlined">按钮3</a>
+<a href="javascript:void(0);" class="mui-btn mui-btn-success mui-btn-outlined">按钮4</a>
+
+<script>
+    document.querySelectorAll("a")[0].onclick=function(){
+        mui.alert("欢迎回来","qq空间","取消",function(){
+            alert("你取消了操作");
+        },"div");
+    }
+    document.querySelectorAll("a")[1].onclick=function(event){
+        mui.confirm("你确定要删除这条消息吗","qq空间",["确定","取消"],function(event){
+            if(event.index===1){
+                console.log("你点击了确定");
+            }else if(event.index===0){
+                console.log("您点击了取消");
+            }
+        },"div");
+    }
+    document.querySelectorAll("a")[2].onclick=function(){
+        mui.prompt("你想得到什么","","",["残忍拒绝","接受"],function(){
+
+        },"div");
+    }
+    document.querySelectorAll("a")[3].onclick=function(){
+        mui.toast("服务器繁忙",{duration:1000,type:'div'});
+    }
+</script>
+<ul class="mui-table-view">
+    <li class="mui-table-view-cell">
+        <a href="" class="mui-navigate-right mui-slider-handle">战狼3</a>
+    </li>
+    <li class="mui-table-view-cell">三生三世十里桃花</li>
+    <li class="mui-table-view-cell">微微一笑很倾城</li>
+    <li class="mui-table-view-cell">战狼3</li>
+    <li class="mui-table-view-cell">战狼3</li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

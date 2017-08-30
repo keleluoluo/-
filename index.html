@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <title>mui框架</title>
+    <link rel="stylesheet" href="./mui-master/dist/css/mui.css"/>
+    <script src="./mui-master/dist/js/mui.js"></script>
+</head>
+<body>
+<a href="javascript:void(0);" class="mui-btn mui-btn-success mui-btn-outlined" data-loading-text="正在提交中">按钮1</a>
+<script>
+    document.querySelector("a").onclick=function(){
+        mui(".mui-btn").button("loading");
+        window.setTimeout(function () {
+            mui(".mui-btn").button("reset");
+        },1000)
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
